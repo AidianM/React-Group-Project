@@ -4,9 +4,9 @@ import './css/index.css';
 function Navbar(props){
     return(
       <div className="nav">
-        <Link to='/'>Home</Link>
-        <Link to='/products'>Products</Link>
-        <Link to='/about'>About</Link>
+        <Link to='/' className='nav-link'>Home</Link>
+        <Link to='/products' className='nav-link'>Products</Link>
+        <Link to='/about' className='nav-link'>About</Link>
       </div>
     );
   }
