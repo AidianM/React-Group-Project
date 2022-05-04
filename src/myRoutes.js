@@ -7,7 +7,7 @@ import About from './about';
 function MyRoutes(props){
     return (
       <Router>
-        <div>
+        <div className='myRoutesParentDiv'>
           <Navbar />
           <hr/>
           <Routes>
