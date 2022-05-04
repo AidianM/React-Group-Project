@@ -1,3 +1,61 @@
+# Project Reqs and basic info:
+
+E-Commerce Site:
+
+E-Commerce:  
+
+-must have at least 5 different products
+-each product should have a different title, description, and price
+-the ability to click on a product to view details only for that one product 
+
+Project Requirements
+
+-Initializing Repository, Readme.md
+
+-Create wireframe in something like draw.io to get a concept of what the group wants to create
+
+-use props
+
+-use state 
+-demonstrate reusable components
+
+-user-friendly (is this easy to use for the user? Hint: you have classmates who are excellent testers for your project.) 
+
+-written from scratch (i.e. do not repurpose other people’s code) 
+
+-mobile-friendly (i.e. you want to eventually pull this app up on your phone to show a potential    
+    recruiter or someone in the tech community if you are out at an event.) 
+
+-responsiveness 
+
+-Unique and readable design - Be Creative!
+
+-Understand the project enough to be able to present it
+
+=====================================================================================================
+
+Business Name: Todd Talent South/Breakout Room 2
+
+Product 1: BR2 logo sticker/$4/"Show your dedication to the Great Todd and BR2."
+Product 2: BR2 hat/$15/"Show that your brain is the property of BR2."
+Product 3: Marble Bust of Todd/$9,999.98/"Gone but immortalized, show your dedication that the Great Todd will one day return to us."
+Product 4: Scott Dossey's Private Phone Number/$ [Market Rate]/ "I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not.
+
+*Offer void where prohibited by law or if Scott says he'll flunk us."
+Product 5: We tell you a story about Todd/$250/"We will sing to you legends of the Great Todd"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+*BELOW HERE: STANDARD README*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
