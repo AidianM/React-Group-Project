@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+}
