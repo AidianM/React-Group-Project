@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom/client';
 
 function Home(props){
 
-  //issue: image not working? Fix later
   return(
     <div>
       <h1>Breakout Room 2</h1>
@@ -30,7 +29,7 @@ function About(props){
   );
 }
 
-//TO DO: take base info off of single <li> and format
+//TO DO: fix rough formatting
 function Products(props){
   return(
     <div>
@@ -38,11 +37,11 @@ function Products(props){
       <div>
         You asked, we delivered: check out our May 2022 new product line!
         <ul>
-          <li>BR2 logo sticker/$4/"Show your dedication to the Great Todd and BR2."</li>
-          <li>BR2 hat/$15/"Show that your brain is the property of BR2."</li>
-          <li>Marble Bust of Todd/$9,999.98/"Gone but immortalized, show your dedication that the Great Todd will one day return to us."</li>
-          <li>Scott Dossey's Private Phone Number/$ [Market Rate]/ "I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not.</li>
-          <li>We tell you a story about Todd/$250/"We will sing to you legends of the Great Todd"</li>
+          <li>BR2 logo sticker <br />$4 <br />"Show your dedication to the Great Todd and BR2."</li>
+          <li>BR2 hat <br/> $15 <br/> "Show that your brain is the property of BR2."</li>
+          <li>Marble Bust of Todd <br />$9,999.98<br/>"Gone but immortalized, show your dedication that the Great Todd will one day return to us."</li>
+          <li>Scott Dossey's Private Phone Number<br/>$ [Market Rate]<br/> "I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not.</li>
+          <li>We tell you a story about Todd<br/>$250<br/>"We will sing to you legends of the Great Todd"</li>
         </ul>
       </div>
     </div>
