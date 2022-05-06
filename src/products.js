@@ -3,7 +3,7 @@ function Products(props){
       <div>
         <h1>Products</h1>
         <div>
-          You asked, we delivered: check out our May 2022 new product line!
+          <p>You asked, we delivered: check out our May 2022 new product line!</p>
           <ul>
             <li>BR2 logo sticker <br />$4 <br />"Show your dedication to the Great Todd and BR2."</li>
             <li>BR2 hat <br/> $15 <br/> "Show that your brain is the property of BR2."</li>

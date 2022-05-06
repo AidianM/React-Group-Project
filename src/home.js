@@ -1,14 +1,27 @@
 function Home(props){
-
     return(
-      <div>
-        <h1>Breakout Room 2</h1>
-        <h4>The Premier Breakout Room of Todd Talent South</h4>
+      <div class="jumbotron">
+        <h1>The Todd Talent South Store!</h1>
         <img src="./resources/images/toddtslogo.jpg" 
         alt="Todd Talent South logo" 
         className='logo'/>
-       </div>
+        <img src="./resources/images/ToddBust.png" 
+        alt="Bust of Todd, circa 500BC, courtesy of the Louvre" 
+        className='logo'/>
+        <p>The Exclusive Merch Store of Todd Talent South's Breakout Room 2!</p>
+        <hr class="my-4"/>
+        <p>We have high quality, exclusive Todd merchandise for sale for a limited time!</p>
+        <p>Click "Shop Now!" below too see what we have in stock.</p>
+        <p>Be sure to act quickly as quantities are very limited!</p>
+        <p class="lead">
+        <a class="btn btn-secondary btn-lg" href="products" type="button">Shop Now!</a>
+        <span> </span>
+        <a class="btn btn-secondary btn-lg" href="about" type="button">About Us</a>
+        </p>
+      </div>
     );
   }
 
   export default Home;
+
+  
