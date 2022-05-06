@@ -8,7 +8,7 @@ function Home(props){
         <img src="./resources/images/ToddBust.png" 
         alt="Bust of Todd, circa 500BC, courtesy of the Louvre" 
         className='logo'/>
-        <p>The Exclusive Merch Store of Todd Talent South's Breakout Room 2!</p>
+        <h4>The Exclusive Merch Store of Todd Talent South's Breakout Room 2!</h4>
         <hr class="my-4"/>
         <p>We have high quality, exclusive Todd merchandise for sale for a limited time!</p>
         <p>Click "Shop Now!" below too see what we have in stock.</p>
