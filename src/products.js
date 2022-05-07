@@ -29,7 +29,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 Logo $4</h5>
-                        <p className='text-info'>
+                        <p className='text-info1'>
                           Show your dedication to the Great Todd and BR2.
                         </p>
                       </div>
@@ -46,7 +46,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 hat $15</h5>
-                        <p>Show that your brain is the property of BR2.</p>
+                        <p className='text-info'>Show that your brain is the property of BR2.</p>
                       </div>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>Marble Bust of Todd $999.99</h5>
-                        <p>Gone but immortalized, show your dedication that the Great Todd will one day return to us.</p>
+                        <p className='text-info'>Gone but immortalized, show your dedication that the Great Todd will one day return to us.</p>
                       </div>
                     </div>
                   </div>
@@ -76,7 +76,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>Scott Dossey's Private #</h5>
-                        <p>"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not.</p>
+                        <p className='text-info'>"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not.</p>
                       </div>
                     </div>
                   </div>
@@ -91,7 +91,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>We tell you a story about Todd $250</h5>
-                        <p>We will sing to you legends of the Great Todd.</p>
+                        <p className='text-info'>We will sing to you legends of the Great Todd.</p>
                       </div>
                     </div>
                   </div>

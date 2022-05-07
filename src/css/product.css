@@ -79,7 +79,11 @@
 }
 
 .text-info {
-  margin: 0 115px;
+  margin: 0 100px;
+}
+
+.text-info1 {
+  margin: 0 250px;
 }
 
 .btn-slide {
@@ -115,6 +119,7 @@
 
 h5 {
   text-transform: uppercase;
+  font-size: 1.5vw;
 }
 
 .scott-text {
