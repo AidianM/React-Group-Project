@@ -78,6 +78,10 @@
   font-size: 1.5vw;
 }
 
+.text-info {
+  margin: 0 115px;
+}
+
 .btn-slide {
   border: solid;
 }

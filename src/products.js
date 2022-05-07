@@ -29,7 +29,7 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 Logo $4</h5>
-                        <p>
+                        <p className='text-info'>
                           Show your dedication to the Great Todd and BR2.
                         </p>
                       </div>
