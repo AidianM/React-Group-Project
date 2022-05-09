@@ -8,6 +8,7 @@ h1{
     color: #fe654f !important; 
     font-weight: bold; 
     font-family: "Space Mono"; 
+    text-align: center;
 }
 
 h4{
@@ -32,4 +33,25 @@ p{
     color: #387780 !important; 
     font-weight: bold; 
     font-family: "Space Mono"; 
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.lead{
+    text-align: center;
+}
+
+.info {
+    margin: 20px;
+}
+
+.h4-info {
+    margin: 20px;
+}
+
+.image-container {
+    text-align: center;
 }
