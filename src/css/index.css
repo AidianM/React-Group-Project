@@ -3,3 +3,33 @@
     width: 10%;
     height: auto;
 }
+
+h1{
+    color: #fe654f !important; 
+    font-weight: bold; 
+    font-family: "Space Mono"; 
+}
+
+h4{
+    color: #387780 !important;
+    font-weight: bold; 
+    font-family: "Space Mono"; 
+}
+
+h5{
+    color: #fe654f !important;
+    font-weight: bold;
+    font-family: "Space Mono"; 
+}
+
+li{
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono"; 
+}
+
+p{
+    color: #387780 !important; 
+    font-weight: bold; 
+    font-family: "Space Mono"; 
+}

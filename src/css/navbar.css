@@ -1,0 +1,30 @@
+.logo{
+    width: 10%;
+    height: auto;
+}
+
+.bg-light{
+    background-color: #dbd4d3 !important;
+}
+
+.jumbotron{
+    background-color: #dbd4d3 !important;
+    padding: 5px !important;
+}
+
+.nav-link{
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+.navbar-brand{
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+.btn{
+    color: #dbd4d3 !important;
+    font-family: "Space Mono";
+}

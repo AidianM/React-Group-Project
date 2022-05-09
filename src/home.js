@@ -14,9 +14,9 @@ function Home(props){
         <p>Click "Shop Now!" below too see what we have in stock.</p>
         <p>Be sure to act quickly as quantities are very limited!</p>
         <p class="lead">
-        <a class="btn btn-secondary btn-lg" href="products" type="button">Shop Now!</a>
+        <a class="btn btn-secondary btn-lg" href="products" type="button">SHOP NOW!</a>
         <span> </span>
-        <a class="btn btn-secondary btn-lg" href="about" type="button">About Us</a>
+        <a class="btn btn-secondary btn-lg" href="about" type="button">ABOUT US</a>
         </p>
       </div>
     );
