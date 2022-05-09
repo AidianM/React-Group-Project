@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MyFirebase from './utility/MyFirebase';
 import { Checkbox } from './checkbox';
-import BuyerInfo from './buyerInfo';
+// import BuyerInfo from './buyerInfo';
 
 function Order(props){
     
@@ -16,8 +16,26 @@ function Order(props){
     const TOTAL = 0;
     const GENERIC_COMMENTS = 'Comments';
 
-    let updatedTotal = 0;
-    let clicked = false;
+    // let clicked = false;
+
+    let [firstName, setFirstName] = React.useState(props.firstName);
+    let [lastName, setLastName] = React.useState(props.lastName);
+    let [street, setStreet] = React.useState(props.street);
+    let [city, setCity] = React.useState(props.city);
+    let [state, setState] = React.useState(props.state);
+    let [zip, setZip] = React.useState(props.zip);
+    let [updatedTotal, setUpdatedTotal] = React.useState(props.total);
+    let [comments, setComments] = React.useState(props.comments);
+    
+    let firstNameContent = React.createRef();
+    let lastNameContent= React.createRef();
+    let streetContent = React.createRef();
+    let cityContent = React.createRef();
+    let stateContent = React.createRef();
+    let zipContent = React.createRef();
+    let totalContent = React.createRef();
+    let commentContent = React.createRef();
+
 
     let firebaseDBRef = MyFirebase.getFirebaseRef();
 
@@ -37,26 +55,64 @@ function Order(props){
             city: GENERIC_CITY,
             state: GENERIC_STATE,
             zip: GENERIC_ZIP,
-            orderTotal: {updatedTotal},
+            orderTotal: TOTAL,
             comments: GENERIC_COMMENTS
         });
 
         newOrderArray.push(
             {
                 id: pushRef.key,
-                title: GENERIC_FIRST_NAME,
-                body: GENERIC_LAST_NAME,
+                firstName: GENERIC_FIRST_NAME,
+                lastName: GENERIC_LAST_NAME,
                 street: GENERIC_STREET_ADDRESS,
                 city: GENERIC_CITY,
                 state: GENERIC_STATE,
                 zip: GENERIC_ZIP,
-                orderTotal: {updatedTotal},
+                orderTotal: TOTAL,
                 comments: GENERIC_COMMENTS
             }
         );
         setOrder(newOrderArray);
+ 
     }
 
+    function handleSave(props){
+        let childRef = props.firebaseDBRef.child(props.id);
+
+        setFirstName((firstName) => {
+            childRef.update({firstName: firstNameContent.current.value});
+            return firstNameContent.current.value;
+        });
+        setLastName((lastName) => {
+            childRef.update({lastName: lastNameContent.current.value});
+            return lastNameContent.current.value;
+        });
+        setStreet((street) => {
+            childRef.update({street: streetContent.current.value});
+            return streetContent.current.value;
+        });
+        setCity((city) => {
+            childRef.update({city: cityContent.current.value});
+            return cityContent.current.value;
+        });
+        setState((state) => {
+            childRef.update({state: stateContent.current.value});
+            return stateContent.current.value;
+        });
+        setZip((zip) => {
+            childRef.update({zip: zipContent.current.value});
+            return zipContent.current.value;
+        });
+        setUpdatedTotal((updatedTotal) => {
+            childRef.update({orderTotal: totalContent.current.value});
+            return totalContent.current.value;
+        });
+        setComments((comments) => {
+            childRef.update({comments: commentContent.current.value});
+            return commentContent.current.value;
+        });
+
+    }
 
 
     
@@ -70,27 +126,27 @@ function Order(props){
                         <h1 className="d-flex justify-content-center">Order Info:</h1>
                         <div className="row">
                             <div className="col">
-                            <input type="text" className="form-control" placeholder="First name" />
+                            <input type="text" className="form-control" placeholder="First name" ref={firstNameContent} />
                             </div>
                             <div className="col">
-                            <input type="text" className="form-control" placeholder="Last name" />
+                            <input type="text" className="form-control" placeholder="Last name" ref={lastNameContent} />
                             </div>
                             
                         </div>
                         <div className="row">
                             <div className="col">
-                                <input type='text' className="form-control" placeholder="Street Address" />
+                                <input type='text' className="form-control" placeholder="Street Address" ref={streetContent} />
                             </div>
                         </div>
                         <div className="row">
                             <div className="col">
-                                <input type="text" className="form-control" placeholder="City" />
+                                <input type="text" className="form-control" placeholder="City" ref={cityContent}/>
                                 </div>
                                 <div className="col">
-                                <input type="text" className="form-control" placeholder="State" />
+                                <input type="text" className="form-control" placeholder="State" ref={stateContent}/>
                                 </div>
                                 <div className="col">
-                                <input type="text" className="form-control" placeholder="Zip" />
+                                <input type="text" className="form-control" placeholder="Zip" ref={zipContent} />
                             </div>
 
                         </div>
@@ -109,7 +165,7 @@ function Order(props){
                                 <div className="col">
                                     <div className="input-group mb-3">
                                         <div className="input-group-prepend">
-                                            <span className="input-group-text">Order total: <br/> ₿ {TOTAL}</span>
+                                            <span className="input-group-text">Order total: <br/> ₿ {totalContent}</span>
                                         </div> 
                                     </div>
                                 </div>
@@ -156,7 +212,7 @@ function Order(props){
                         <div className="input-group-prepend">
                             <span className="input-group-text">Please enter any comments or requirements here:</span>
                         </div>
-                        <textarea className="form-control" aria-label="With textarea"></textarea>
+                        <textarea className="form-control" aria-label="With textarea" ref={commentContent}></textarea>
                     </div>
                 </div>
                 <div className="col col-1">
