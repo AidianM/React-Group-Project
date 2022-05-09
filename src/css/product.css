@@ -33,7 +33,7 @@
 }
 
 .carousel-center{
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -52,6 +52,7 @@
 
 .text-info {
   margin: 0;
+  color: #387780 !important;
 }
 
 .img-center {
@@ -94,21 +95,21 @@
 }
 
 .txt-color {
-  color: rgb(247,247,247);
+  color: #387780 !important;
 }
 
 .btn-left {
   border: none;
-  background-color: rgb(246,144,39);
+  background-color: #387780;
 }
 
 .btn-right {
   border: none;
-  background-color: rgb(246,144,39);
+  background-color: #387780;
 }
 
 .carousel {
-  background-color: rgb(243,243,243);
+  background-color: #dbd4D3;
 }
 
 h5 {

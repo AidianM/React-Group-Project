@@ -1,0 +1,28 @@
+.input-group-text {
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+::placeholder {
+    color:#387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono"
+}
+
+.d-flex {
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+.btn{
+    color: #dbd4d3 !important;
+    font-family: "Space Mono";
+}
+
+.form-control {
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
