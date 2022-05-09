@@ -28,3 +28,8 @@
     color: #dbd4d3 !important;
     font-family: "Space Mono";
 }
+
+.cart {
+    display: flex;
+    align-items: center;
+}
