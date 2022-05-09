@@ -29,14 +29,13 @@
   font-size: 22px;
   text-align: center;
   border-bottom: solid 1px rgba(0,0,0,.05);
-  margin-bottom: 25px;
   padding: 25px 0;
 }
 
 .carousel-center{
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .carousel-position {
@@ -48,10 +47,16 @@
   margin: 20px 0;
 }
 
+.text-info {
+  margin: 0;
+}
+
 .item-position {
-  margin: 0 150px;
-  position: relative;
-  bottom: 30px;
+
+}
+
+.p-position {
+
 }
 
 .img-center {
@@ -76,14 +81,7 @@
 
 .text-resize {
   font-size: 1.5vw;
-}
-
-.text-info {
-  margin: 0 100px;
-}
-
-.text-info1 {
-  margin: 0 250px;
+  width: 100%;
 }
 
 .btn-slide {
