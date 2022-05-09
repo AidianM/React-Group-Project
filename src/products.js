@@ -1,5 +1,6 @@
 import './css/product.css';
-import { Carousel } from 'bootstrap';
+import React from 'react';
+import Carousel from 'react';
 
 function Products(props){
     return(
