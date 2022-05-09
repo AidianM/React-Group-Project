@@ -44,19 +44,14 @@
 
 .item{
   text-align: center;
-  margin: 20px 0;
+}
+
+.item-position1 {
+  margin-top: 20px;
 }
 
 .text-info {
   margin: 0;
-}
-
-.item-position {
-
-}
-
-.p-position {
-
 }
 
 .img-center {
@@ -68,6 +63,7 @@
 .center {
   display: flex;
   justify-content: center;
+  width: 75%;
 }
 
 .position {
@@ -129,4 +125,18 @@ h5 {
 .last-img-position {
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.center {
+  display: inline-block;
+  justify-content: center;
+  margin-right: 0;
+}
+
+.img-position {
+  margin-left: 23vw;
+}
+
+.img3-position {
+  margin-left: 26.5vw;
 }

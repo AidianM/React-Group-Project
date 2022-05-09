@@ -3,6 +3,7 @@ import React from 'react';
 import { Carousel } from 'bootstrap';
 
 function Products(props){
+
     return(
       <div>
         <div className='txt-header'>
@@ -21,12 +22,14 @@ function Products(props){
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div className='img-position'>
-                    <div className='img-center'>
-                      <img src="./resources/images/toddtslogo.jpg" class="d-block w-25" alt="..."/>
-                    </div>
+                  <div>
+                    <a className='alert-style' onClick={() => {alert("Show Your dedication to the Great Todd and BR2. For only $4.99 + taxes.")}}>
+                      <div className='img-center'>
+                        <img src="./resources/images/toddtslogo.jpg" class="d-block w-25" alt="..."/>
+                      </div>
+                    </a>
                   </div>
-                  <div className='item'>
+                  <div className='item item-position1'>
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 Logo</h5>
@@ -39,60 +42,67 @@ function Products(props){
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div className='img2-position'>
+                  <div>
+                  <a onClick={() => {alert("Show that your brain is the property of BR2. For only $14.99 + taxes.")}}>
                     <div className='center'>
-                      <img src="./resources/images/Hat-Merchandise.png" class="d-block w-50" alt="..."/>
+                      <img src="./resources/images/Hat-Merchandise.png" class="img-position w-50" alt="..."/>
                     </div>
+                  </a>
                   </div>
                   <div className='item item-position'>
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 hat</h5>
                         <p className='text-info'>Show that your brain is the property of BR2.</p>
-                        <p>&#36;15.99</p>
+                        <p>&#36;14.99</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <div className='img3-position'>
+                  <div>
+                  <a onClick={() => {alert("Gone but immortalized, show your dedication that the Great Todd will one day return to us. For only $999.99 + taxes.")}}>
                     <div className='center'>
-                      <img src="./resources/images/ToddBust.png" class="d-block img-resize" alt="..."/>
+                      <img src="./resources/images/ToddBust.png" class="img-resize img3-position" alt="..."/>
                     </div>
+                  </a>
                   </div>
                   <div className='item item-position'>
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>Marble Bust of Todd</h5>
-                        <p className='text-info'>Gone but immortalized, show your dedication </p> 
-                        <p className='p-position'>that the Great Todd will one day return to us.</p>
+                        <p className='text-info'>Gone but immortalized, show your dedication ... </p> 
+                        <span>(Click on image for more info)</span>
                         <p>&#36;999.99</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div className='img2-position'>
+                  <div>
+                  <a onClick={() => {alert("I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not. (Call to Inquire)")}}>
                     <div className='center'>
-                      <img src="./resources/images/BigDaddyScott.png" class="d-block w-50" alt="..."/>
-                    </div>
+                      <img src="./resources/images/BigDaddyScott.png" class="w-50 img-position" alt="..."/>
+                    </div>            
+                  </a>
                   </div>
                   <div className='item item-position scott-text'>
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>Scott Dossey's Private #</h5>
-                        <p className='text-info'>"I'm not saying we HAVE it, but inquire with </p> 
-                        <p className='p-position'> our specialists about whether maybe it's a thing* or not.</p>
-                        <p>(Call to Inquire)</p>
+                        <p className='text-info'>"I'm not saying we HAVE it, but inquire with ...</p>  
+                        <span>(Click on image for more info)</span>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div className='img2-position last-img-position'>
+                  <div className='last-img-position'>
+                  <a onClick={() => {alert("We will sing to you legends of the Great Todd. For only $249.99 + taxes.")}}>
                     <div className='center'>
-                      <img src="./resources/images/storyTime.png" class="d-block w-50" alt="..."/>
-                    </div>
+                      <img src="./resources/images/storyTime.png" class="w-50 img-position" alt="..."/>
+                    </div>                
+                  </a>
                   </div>
                   <div className='item item-position scott-text'>
                     <div className='text-container'>
