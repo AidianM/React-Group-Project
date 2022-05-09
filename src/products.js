@@ -29,7 +29,7 @@ function Products(props){
                   <div className='item'>
                     <div className='text-container'>
                       <div className='text-resize'>
-                        <h5>BR2 Logo</h5>
+                        <h5>BR2 Logo Sticker</h5>
                         <p className='text-info1'>
                           Show your dedication to the Great Todd and BR2.
                         </p>
@@ -64,8 +64,8 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>Marble Bust of Todd</h5>
-                        <p className='text-info'>Gone but immortalized, show your dedication </p> 
-                        <p className='p-position'>that the Great Todd will one day return to us.</p>
+                        <p className='text-info'>Gone but immortalized, show your dedication to the </p> 
+                        <p className='p-position'>belief that the Great Todd will one day return to us.</p>
                         <p>&#36;999.99</p>
                       </div>
                     </div>
@@ -80,7 +80,7 @@ function Products(props){
                   <div className='item item-position scott-text'>
                     <div className='text-container'>
                       <div className='text-resize'>
-                        <h5>Scott Dossey's Private #</h5>
+                        <h5>Scott Dossey's Private Phone#</h5>
                         <p className='text-info'>"I'm not saying we HAVE it, but inquire with </p> 
                         <p className='p-position'> our specialists about whether maybe it's a thing* or not.</p>
                         <p>(Call to Inquire)</p>
