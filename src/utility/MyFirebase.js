@@ -15,6 +15,7 @@ import 'firebase/compat/database';
     firebase.initializeApp(config);
 
   function getFirebaseRef(refPath){
+    
       return firebase.database().ref(refPath);
   }
 

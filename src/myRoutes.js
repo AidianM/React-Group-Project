@@ -4,6 +4,9 @@ import Home from './home';
 import Products from './products';
 import About from './about';
 import Order from './order';
+import MyFirebase from './utility/MyFirebase';
+
+let firebaseDBRef = MyFirebase.getFirebaseRef();
 
 function MyRoutes(props){
     return (
@@ -15,7 +18,12 @@ function MyRoutes(props){
             <Route path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
             <Route path='/about' element={<About/>} />
-            <Route path='/order' element={<Order/>} />
+            <Route path='/order' element={<Order key={props.id} id={props.id}
+                                    firstName={props.title} lastName = {props.body}
+                                    street={props.street} state={props.state}
+                                    zip={props.zip} total={props.total}
+                                    comments={props.comments}
+                                    firebaseDBRef={firebaseDBRef}/>} />
           </Routes>
         </div>
       </Router>

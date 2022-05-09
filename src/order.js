@@ -2,19 +2,22 @@ import React, {useState} from 'react';
 import MyFirebase from './utility/MyFirebase';
 import { Checkbox } from './checkbox';
 
+const GENERIC_FIRST_NAME = "First Name";
+const GENERIC_LAST_NAME = "Last Name";
+const GENERIC_STREET_ADDRESS = "Street Address";
+const GENERIC_CITY = "City";
+const GENERIC_STATE = "State";
+const GENERIC_ZIP = "Zip";
+const TOTAL = 0;
+const GENERIC_COMMENTS = 'Comments';
+
+let firebaseDBRef = MyFirebase.getFirebaseRef();
 
 function Order(props){
     
     let [order, setOrder] = React.useState([]);
 
-    const GENERIC_FIRST_NAME = "First Name";
-    const GENERIC_LAST_NAME = "Last Name";
-    const GENERIC_STREET_ADDRESS = "Street Address";
-    const GENERIC_CITY = "City";
-    const GENERIC_STATE = "State";
-    const GENERIC_ZIP = "Zip";
-    const TOTAL = 0;
-    const GENERIC_COMMENTS = 'Comments';
+
 
     // let clicked = false;
 
@@ -36,10 +39,6 @@ function Order(props){
     let totalContent = React.createRef();
     let commentContent = React.createRef();
 
-
-    let firebaseDBRef = MyFirebase.getFirebaseRef();
-
-
     function addOrder(order){ 
         let newOrderArray=[];
 
@@ -49,7 +48,7 @@ function Order(props){
 
         let pushRef = firebaseDBRef.push(); //creates a new FBDB unique name key:value
         pushRef.set({
-            firstName: GENERIC_FIRST_NAME,
+            firstName: order.firstNameContent,
             lastName: GENERIC_LAST_NAME,
             street: GENERIC_STREET_ADDRESS,
             city: GENERIC_CITY,
@@ -73,15 +72,19 @@ function Order(props){
             }
         );
         setOrder(newOrderArray);
- 
+        handleSave();
     }
 
-    function handleSave(props){
+
+    function handleSave(){
+        console.log(props.firebaseDBRef);
+        console.log(props.id);
+        console.log(props.firebaseDBRef.child(props.id));
         let childRef = props.firebaseDBRef.child(props.id);
 
         setFirstName((firstName) => {
-            childRef.update({firstName: firstNameContent.current.value});
-            return firstNameContent.current.value;
+            childRef.update({firstName: order.firstNameContent.current.value});
+            return firstName.current.value;
         });
         setLastName((lastName) => {
             childRef.update({lastName: lastNameContent.current.value});
@@ -122,11 +125,11 @@ function Order(props){
                 <div className="col col-1">
                 </div>
                 <div className="col">
-                    <form>
+
                         <h1 className="d-flex justify-content-center">Order Info:</h1>
                         <div className="row">
                             <div className="col">
-                            <input type="text" className="form-control" placeholder="First name" ref={firstNameContent} />
+                            <input type="text" className="form-control" placeholder="First nameTest" ref={firstNameContent} />
                             </div>
                             <div className="col">
                             <input type="text" className="form-control" placeholder="Last name" ref={lastNameContent} />
@@ -151,7 +154,7 @@ function Order(props){
 
                         </div>
 
-                    </form>
+
 
                 
                     <h2 className="d-flex justify-content-center">Item Select:</h2>
@@ -165,7 +168,7 @@ function Order(props){
                                 <div className="col">
                                     <div className="input-group mb-3">
                                         <div className="input-group-prepend">
-                                            <span className="input-group-text">Order total: <br/> ₿ {totalContent}</span>
+                                            <span className="input-group-text">Order total: <br/> ₿ </span>
                                         </div> 
                                     </div>
                                 </div>
@@ -221,6 +224,11 @@ function Order(props){
             <br/>
             <div className="d-flex justify-content-center">
                 <button type="button" className="btn btn-secondary" onClick={addOrder}>Submit Order</button>
+            </div>
+
+            <div>
+
+            
             </div>
 
         </div>
