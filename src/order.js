@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import MyFirebase from './utility/MyFirebase';
 import { Checkbox } from './checkbox';
-// import BuyerInfo from './buyerInfo';
+
 
 function Order(props){
     
@@ -220,7 +220,7 @@ function Order(props){
             </div>
             <br/>
             <div className="d-flex justify-content-center">
-                <button type="button" className="btn btn-primary" onClick={addOrder}>Submit Order</button>
+                <button type="button" className="btn btn-secondary" onClick={addOrder}>Submit Order</button>
             </div>
 
         </div>
