@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import Home from './home';
 import Products from './products';
 import About from './about';
+import Order from './order';
 
 function MyRoutes(props){
     return (
@@ -14,6 +15,7 @@ function MyRoutes(props){
             <Route path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
             <Route path='/about' element={<About/>} />
+            <Route path='/order' element={<Order/>} />
           </Routes>
         </div>
       </Router>
