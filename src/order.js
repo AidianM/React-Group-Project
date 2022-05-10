@@ -80,8 +80,10 @@ function Order(){
 
     return (
         <div className="orderForm">
-            <h1 className="d-flex justify-content-center">NOW ACCEPTING PRE-ORDERS!</h1>
-            <p className="d-flex justify-content-center">Fill out the form below to be notified as soon as we're shipping.</p>
+            <div className='head-title'>
+                <h1 className="d-flex justify-content-center h1-title">NOW ACCEPTING PRE-ORDERS!</h1>
+                <p className="d-flex justify-content-center head-description">Fill out the form below to be notified as soon as we're shipping.</p>
+            </div>
             <div className="row">
                 <div className="col-1">
                 </div>
