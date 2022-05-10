@@ -11,10 +11,15 @@
 .carousel-inner {
   padding: 5px 0;
   padding-bottom: 2vh;
-  height: 530px;
 }
 
-@media (max-width: 660px){
+@media (min-width: 1920px){
+  .carousel-inner {
+    height: 540px;
+  }
+}
+
+@media (max-width: 499px){
   .carousel-inner {
     height: 160px;
   }
