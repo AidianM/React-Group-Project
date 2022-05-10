@@ -3,7 +3,7 @@ import './css/about.css';
 function About(props){
     return (
       <div className="bodyBlock">
-        <h1><u>ABOUT US</u></h1>
+        <h1 className='about-hd-title'><u>ABOUT US</u></h1>
         <br></br>
         <p>
           We here at Todd Talent South's very own Breakout Room 2 have heard your pleas, and are proud to offer fine Todd-related goods and services to our compatriots.
@@ -16,7 +16,7 @@ function About(props){
         <br></br>
         <h4>Here are some quick factoids about Todd the Legend:</h4>
         <br></br>
-        <ul>
+        <ul className='unordered-list-container'>
           <li>All arrays Todd declares are of infinite size, because Todd knows no bounds.</li>
           <li>Todd's code optimizes itself.</li>
           <li>Todd can write infinite recursion functions…and have them return.</li>
