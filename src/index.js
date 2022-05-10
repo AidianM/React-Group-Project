@@ -12,3 +12,5 @@ root.render(
       <MyRoutes />
   </React.StrictMode>
 );
+
+//basic React Router page root

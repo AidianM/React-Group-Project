@@ -3,6 +3,9 @@ import React from 'react';
 import { Carousel } from 'bootstrap';
 import swal from 'sweetalert';
 
+
+//products + carousel
+
 function Products(props){
 
     return(
@@ -35,10 +38,7 @@ function Products(props){
                   <div className='item item1-position'>
                     <div className='text-container'>
                       <div className='text-resize'>
-                        <h5>BR2 Logo Sticker</h5>
-                        {/* <p className='text-info'>
-                          Show your dedication to the Great Todd and BR2.
-                        </p> */}
+                        <h5>BR2 Logo Sticker</h5>         
                         <p>&#36;4.99</p>
                       </div>
                     </div>
@@ -57,7 +57,6 @@ function Products(props){
                     <div>
                       <div className='text-resize'>
                         <h5>BR2 hat</h5>
-                        {/* <p className='text-info'>Show that your brain is the property of BR2.</p> */}
                         <p>&#36;14.99</p>
                         <br></br>
                       </div>
@@ -68,7 +67,7 @@ function Products(props){
                   <div>
                   <a onClick={() => {swal({
                     title:"Bust of Todd",
-                    text:"Gone but immortalized, show your dedication that the Great Todd will one day return to us. For only $999.99 + taxes."})}}>
+                    text:"Gone but immortalized, show your dedication that the Great Todd will one day return to us. A true steal at only $9,999.99 + taxes."})}}>
                     <div className='center'>
                       <img src="./resources/images/ToddBust.png" className="img-resize img3-position pointer" alt="Bust of man 'Todd' image"/>
                     </div>
@@ -78,9 +77,7 @@ function Products(props){
                     <div className='img3-margin'>
                       <div className='text-resize'>
                         <h5>Marble Bust of Todd</h5>
-                        {/* <p className='text-info'>Gone but immortalized, show your dedication ... </p>  */}
-
-                        <p>&#36;999.99</p>
+                        <p>&#36;9,999.99</p>
                         <br></br>
                       </div>
                     </div>
@@ -99,8 +96,6 @@ function Products(props){
                     <div>
                       <div className='text-resize'>
                         <h5>Scott Dossey's Private Phone Number</h5>
-                        {/* <p className='text-info'>"I'm not saying we HAVE it, but inquire with ...</p>   */}
-
                         <p>&#36;[Market Rate]</p>
                       </div>
                     </div>
@@ -118,7 +113,6 @@ function Products(props){
                     <div>
                       <div className='text-resize last-text-container'>
                         <h5>We tell you a story about Todd</h5>
-                        {/* <p className='text-info'>We will sing to you legends of the Great Todd.</p> */}
                         <p className='text-info'>&#36;249.99</p>
                       </div>
                     </div>

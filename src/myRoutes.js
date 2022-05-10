@@ -34,3 +34,6 @@ function MyRoutes(props){
 
 
   export default MyRoutes;
+
+
+  //tying together routes/navbar/footer format for all pages
