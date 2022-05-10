@@ -12,18 +12,18 @@
   padding: 5px 0;
   padding-bottom: 2vh;
   width: 100%;
-  height: 30vw;
+  height: 32vw;
 }
 
-@media (max-width: 1920px) {
+/* @media (min-width: 1920px) {
   .carousel-inner {
     height: 30vw;
   }
-}
+} */
 
-@media (max-width: 620px) {
+@media (max-width: 550px) {
   .carousel-inner {
-    height: 220px;
+    height: 160px;
   }
 }
 
