@@ -18,7 +18,7 @@ function Home(props){
               src="./resources/images/ToddBust.png" 
               alt="Bust of Todd, circa 500BC, courtesy of the Louvre" 
               width="200px"
-              className='col-md-4'
+              className='col-lg-4 img2-resize'
             />
             <img 
               src="./resources/images/Hat-Merchandise.png" 
