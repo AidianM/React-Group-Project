@@ -1,9 +1,10 @@
 import './css/index.css';
+import 'animate.css';
 
 function Home(props){
     return(
-      <div className="container-fluid">
-        <h1 className='container-fluid' id='head-title'>WELCOME TO <br/>THE TODD TALENT SOUTH STORE!</h1>
+      <div className=" container-fluid">
+        <h1 className='container-fluid animate__animated animate__lightSpeedInLeft' id='head-title'>WELCOME TO <br/>THE TODD TALENT SOUTH STORE!</h1>
         <hr class="my-4"/>
         <div className='center'>
           <div className='image-container container-fluid'>
