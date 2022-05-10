@@ -11,17 +11,18 @@
 .carousel-inner {
   padding: 5px 0;
   padding-bottom: 2vh;
+  width: 100%;
 }
 
-@media (min-width: 1920px){
+@media (max-width: 1920px) {
   .carousel-inner {
-    height: 540px;
+    height: 30vw;
   }
 }
 
-@media (max-width: 499px){
+@media (max-width: 620px) {
   .carousel-inner {
-    height: 160px;
+    height: 220px;
   }
 }
 
@@ -216,4 +217,9 @@ h5 {
 
 .carousel-indicators .active{
   background-color: #387780;
+}
+
+.btn-margin {
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
