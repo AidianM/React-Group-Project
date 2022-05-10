@@ -184,3 +184,7 @@ h5 {
   background-color: #387780;
 }
 
+.swal-button:hover{
+  background-color: #5abbca !important;
+}
+
