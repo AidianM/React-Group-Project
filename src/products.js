@@ -105,7 +105,7 @@ function Products(props){
                   <div className='img-margin'>
                     <a onClick={() => {swal({title:"A Story of Todd", text:"We will sing to you legends of the Great Todd. For only $249.99 + taxes."})}}>
                       <div className='center'>
-                        <img src="./resources/images/TaleStory.png" className="w-50 last-img-position pointer" alt="'Tale Story' logo yellow with blue border"/>
+                        <img src="./resources/images/Tale_Story.png" className="w-50 last-img-position pointer" alt="'Tale Story' logo yellow with blue border"/>
                       </div>                
                     </a>
                   </div>
