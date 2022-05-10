@@ -8,17 +8,9 @@ import swal from 'sweetalert';
 let firebaseDBRef = MyFirebase.getFirebaseRef();
 
 
-// const [firstName, setFirstName] = useState('');
-// const [lastName, setLastName] = useState('');
-// const [street, setStreet] = useState('');
-// const [city, setCity] = useState('');
-// const [state, setState] = useState('');
-// const [zip, setZip] = useState('');
-// // const [total, setTotal] = useState('');
-// const [comments, setComments] = useState('');
-
 function Order(){
 
+    //initializing for fields:
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
@@ -27,19 +19,23 @@ function Order(){
     const [city, setCity] = useState('');
     const [state, setState] = useState('');
     const [zip, setZip] = useState('');
-    // const [total, setTotal] = useState('');
     const [comments, setComments] = useState('');
 
 
+    //initializing for order array format:
     let [order, setOrder] = useState([]);
 
-    function addOrder(order){
-        // order.preventDefault();
 
+    //called on Submit Order button:
+    function addOrder(order){
+
+        //make a temp array, push the items
         let newOrderArray=[];
         for(let i = 0; i<order.length; i++){
             newOrderArray.push(order[i]);
     }
+
+        //push items to Firebase database:
         let pushRef = firebaseDBRef.push();
         pushRef.set({
             firstName : firstName,
@@ -52,20 +48,21 @@ function Order(){
             zip: zip,
             comments: comments
         })
-        
+        //promise fulfilled, confirm via SweetAlert npm
         .then(()=>{
             swal("Pre-Order Submitted", "We've received your info. Hold fast for upcoming details!", {
                 button: "Praise Todd!",
             });
-            console.log("hit popup");
         })
+        //tryna catch errors:
         .catch(error => {
             alert(error.message);
         });
 
+        //set temp info to order array format:
         setOrder(newOrderArray);
 
-
+        //reset fields to blank:
         setFirstName('');
         setLastName('');
         setEmail('');
@@ -78,6 +75,8 @@ function Order(){
     }
 
 
+
+    //note: tied together via input values and onChange arrow functions:
     return (
         <div className="orderForm">
             <div className='head-title'>
