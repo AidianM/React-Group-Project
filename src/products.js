@@ -60,6 +60,7 @@ function Products(props){
                         <h5>BR2 hat</h5>
                         {/* <p className='text-info'>Show that your brain is the property of BR2.</p> */}
                         <p>&#36;14.99</p>
+                        <br></br>
                       </div>
                     </div>
                   </div>
@@ -81,6 +82,7 @@ function Products(props){
                         {/* <p className='text-info'>Gone but immortalized, show your dedication ... </p>  */}
 
                         <p>&#36;999.99</p>
+                        <br></br>
                       </div>
                     </div>
                   </div>
