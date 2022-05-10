@@ -1,9 +1,12 @@
 .navbar{
     display: flex;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; */
+ 
     z-index: 1;
+
+    
 
 }
 
@@ -13,11 +16,11 @@
 }
 
 .bg-light{
-    background-color: #dbd4d3 !important;
+    background-color: #387780 !important;
 }
 
 .nav-link{
-    color: #387780 !important;
+    color: #DBD4D3 !important;
     font-weight: bold;
     font-family: "Space Mono";
     display: flex;
@@ -29,7 +32,7 @@
 }
 
 .navbar-brand{
-    color: #387780 !important;
+    color: #DBD4D3 !important;
     font-weight: bold;
     font-family: "Space Mono";
     font-size: 2vh;
@@ -53,7 +56,7 @@
 .cart {
     display: flex;
     align-items: center;
-    fill: #387780 !important;
+    fill: #DBD4D3 !important;
     font-weight: bold;
     font-family: "Space Mono";
 }
