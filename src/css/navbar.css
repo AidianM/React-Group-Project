@@ -102,3 +102,8 @@
 .btn-size:hover {
     text-decoration: none;
 }
+
+.nav-container  {
+    display: flex;
+    justify-content: space-evenly;
+}
