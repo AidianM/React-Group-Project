@@ -6,7 +6,8 @@ function Home(props){
       <div className=" container-fluid">
         <h1 className='container-fluid animate__animated animate__lightSpeedInLeft' id='head-title'>WELCOME TO <br/>THE TODD TALENT SOUTH STORE!</h1>
         <hr class="my-4"/>
-        <div className='center'>
+        <div className='center container-fluid'>
+          <h4 className='h4-info'>The Exclusive Merch Store of Todd Talent South's Breakout Room 2!</h4>
           <div className='image-container container-fluid'>
             <img 
             src="./resources/images/toddtslogo.jpg" 
@@ -28,7 +29,6 @@ function Home(props){
             />
           </div>
           <div className='container-fluid'>
-            <h4 className='h4-info'>The Exclusive Merch Store of Todd Talent South's Breakout Room 2!</h4>
             <p className='info'>
               We have high quality, exclusive Todd merchandise for sale for a limited time!
               Click "Shop Now!" below too see what we have in stock.

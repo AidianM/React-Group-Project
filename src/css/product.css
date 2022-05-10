@@ -11,6 +11,13 @@
 .carousel-inner {
   padding: 5px 0;
   padding-bottom: 2vh;
+  height: 500px;
+}
+
+@media (max-width: 660px){
+  .carousel-inner {
+    height: 160px;
+  }
 }
 
 .pointer:hover {
@@ -108,12 +115,19 @@ h5 {
 }
 
 .img-position {
-  margin-left: 25vw;
+  margin-top: 25px;
+  margin-left: 32vw;
+  width: 15vw;
 }
 
 .img3-position {
   margin: 0;
   margin-left: 29vw;
+  margin-top: 25px;
+}
+
+.img4-position {
+  margin-left: 24.5vw;
 }
 
 .scott-text {
@@ -132,7 +146,7 @@ h5 {
 }
 
 .img-margin {
-  margin-top: 7.8vh;
+  margin-top: 10vw;
 }
 
 .last-img-position {

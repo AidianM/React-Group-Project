@@ -49,7 +49,7 @@ function Products(props){
                   <a onClick={() => {swal({
                     title:"Todd Talent South Hat", text:"Show that your brain is the property of BR2. For only $14.99 + taxes."})}}>
                     <div className='center'>
-                      <img src="./resources/images/Hat-Merchandise.png" className="img-position w-50 pointer" alt="white hat with TODD_TALENT_SOUTH_logo image"/>
+                      <img src="./resources/images/Hat-Merchandise.png" className="img-position pointer" alt="white hat with TODD_TALENT_SOUTH_logo image"/>
                     </div>
                   </a>
                   </div>
@@ -88,7 +88,7 @@ function Products(props){
                   <a onClick={() => {swal({
                     title:"Scott Dossey's Private Phone Number", text:"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing or not. \n\n*Void where prohibted by law or if Scott says he'll flunk us."})}}>
                     <div className='center'>
-                      <img src="./resources/images/BigDaddyScott.png" className="w-50 img-position pointer" alt="Scott holding phone in front of his face showing # in a telephone number format"/>
+                      <img src="./resources/images/BigDaddyScott.png" className="w-50 pointer img4-position" alt="Scott holding phone in front of his face showing # in a telephone number format"/>
                     </div>            
                   </a>
                   </div>

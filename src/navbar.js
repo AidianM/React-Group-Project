@@ -12,7 +12,9 @@ function Navbar(props){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <Link to="/" className="nav-link hover" >HOME <span class="sr-only">(current)</span></Link>
+              <Link to="/" className="nav-link hover" >HOME 
+                <span class="sr-only">(current)</span>
+              </Link>
             </li>
             <li class="nav-item">
               <Link to="/products" className="nav-link hover">PRODUCTS</Link>
