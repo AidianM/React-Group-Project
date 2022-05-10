@@ -35,23 +35,53 @@ p{
     font-family: "Space Mono"; 
 }
 
-.container-fluid{
-    display: flex;
-    justify-content: center;
-}
-
 .lead{
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .info {
-    margin: 20px;
+    font-size: 16px;
+    text-align: left;
 }
 
 .h4-info {
-    margin: 20px;
+    text-align: left;
+    font-size: 16px;
 }
 
 .image-container {
     text-align: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.col-md-4 {
+    padding: 0 5px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-btn {
+    margin: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+}
+
+#head-title {
+    font-size: 32px;
+}
+
+.home-btn {
+    margin: 0 !important;
+    display: flex;
+    justify-self: space-around;
 }
