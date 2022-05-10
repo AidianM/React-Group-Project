@@ -133,7 +133,8 @@ function Products(props){
             </div>
           </div>
         </div>
-        <div class="col-md-12 text-center"><a class="btn-secondary btn-lg btn home-btn" href="order" type="button">ORDER NOW!</a></div>
+        <div className="col-md-12 text-center"><a className="btn-secondary btn-lg btn home-btn" href="order" type="button">ORDER NOW!</a></div>
+          <br/>
       </div>
     );
   }
