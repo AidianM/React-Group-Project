@@ -25,7 +25,7 @@ function Home(props){
               src="./resources/images/Hat-Merchandise.png" 
               alt="ToddTS Hat" 
               width="300px"
-              className='col-md-4'
+              className='col-md-3'
             />
           </div>
           <div className='container-fluid'>
