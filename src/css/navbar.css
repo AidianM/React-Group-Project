@@ -16,7 +16,7 @@
 
 .hover:hover{
     color: #5abbca !important;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .navbar-brand{
@@ -51,6 +51,7 @@
 
 .cart:hover {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cart-icon-text {
@@ -88,3 +89,16 @@
     margin: 0 !important;
 }
 
+.bi-cart {
+    width: 80px;
+    cursor: pointer;
+}
+
+.btn-size {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.btn-size:hover {
+    text-decoration: none;
+}
