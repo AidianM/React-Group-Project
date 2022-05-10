@@ -4,7 +4,9 @@ import {Link} from 'react-router-dom';
 import './css/order.css';
 
 
+
 let firebaseDBRef = MyFirebase.getFirebaseRef();
+
 
 // const [firstName, setFirstName] = useState('');
 // const [lastName, setLastName] = useState('');
@@ -52,7 +54,7 @@ function Order(){
         })
         
         .then(()=>{
-            alert("Your order has been submitted. Praise Todd.");
+            console.log("hit popup");
         })
         .catch(error => {
             alert(error.message);
