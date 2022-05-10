@@ -1,9 +1,13 @@
 .copyright-container {
   margin-top: 130px;
   display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   justify-content: center;
   vertical-align: bottom;
-  font-size: 1vw
+  font-size: 1vw;
+  background-color: #DBD4D3;
 }
 
 p {
@@ -17,3 +21,11 @@ p {
   vertical-align: middle;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+.copyright-spacer {
+
+}
+
+>>>>>>> 7488c1887222f150ee39a197bab9a1119558158a

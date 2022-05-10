@@ -8,9 +8,11 @@ function Products(props){
     return(
       <div>
         <div className='txt-header'>
+          <br/>
           <h1>Products</h1>
           <p>You asked, we delivered: check out our May 2022 new product line!</p>
         </div>
+        <h4 className="d-flex justify-content-center">Click an image for more product info</h4>
         <div className='carousel-center'>
           <div className='carousel-position'>
             <div id="carouselExampleCaptions" className="carousel" data-bs-ride="carousel">
@@ -35,9 +37,9 @@ function Products(props){
                     <div className='text-container'>
                       <div className='text-resize'>
                         <h5>BR2 Logo Sticker</h5>
-                        <p className='text-info'>
+                        {/* <p className='text-info'>
                           Show your dedication to the Great Todd and BR2.
-                        </p>
+                        </p> */}
                         <p>&#36;4.99</p>
                       </div>
                     </div>
@@ -56,7 +58,7 @@ function Products(props){
                     <div>
                       <div className='text-resize'>
                         <h5>BR2 hat</h5>
-                        <p className='text-info'>Show that your brain is the property of BR2.</p>
+                        {/* <p className='text-info'>Show that your brain is the property of BR2.</p> */}
                         <p>&#36;14.99</p>
                       </div>
                     </div>
@@ -76,8 +78,8 @@ function Products(props){
                     <div className='img3-margin'>
                       <div className='text-resize'>
                         <h5>Marble Bust of Todd</h5>
-                        <p className='text-info'>Gone but immortalized, show your dedication ... </p> 
-                        <span>(Click on image for more info)</span>
+                        {/* <p className='text-info'>Gone but immortalized, show your dedication ... </p>  */}
+
                         <p>&#36;999.99</p>
                       </div>
                     </div>
@@ -86,7 +88,7 @@ function Products(props){
                 <div className="carousel-item">
                   <div>
                   <a onClick={() => {swal({
-                    title:"Scott Dossey's Private Phone Number", text:"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not. (Call to Inquire)"})}}>
+                    title:"Scott Dossey's Private Phone Number", text:"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing or not. \n\n*Void where prohibted by law or if Scott says he'll flunk us."})}}>
                     <div className='center'>
                       <img src="./resources/images/BigDaddyScott.png" className="w-50 img-position pointer" alt="Scott holding phone in front of his face showing # in a telephone number format"/>
                     </div>            
@@ -95,9 +97,10 @@ function Products(props){
                   <div className='item scott-text'>
                     <div>
                       <div className='text-resize'>
-                        <h5>Scott Dossey's Private #</h5>
-                        <p className='text-info'>"I'm not saying we HAVE it, but inquire with ...</p>  
-                        <span>(Click on image for more info)</span>
+                        <h5>Scott Dossey's Private Phone Number</h5>
+                        {/* <p className='text-info'>"I'm not saying we HAVE it, but inquire with ...</p>   */}
+
+                        <p>&#36;[Market Rate]</p>
                       </div>
                     </div>
                   </div>
@@ -114,7 +117,7 @@ function Products(props){
                     <div>
                       <div className='text-resize last-text-container'>
                         <h5>We tell you a story about Todd</h5>
-                        <p className='text-info'>We will sing to you legends of the Great Todd.</p>
+                        {/* <p className='text-info'>We will sing to you legends of the Great Todd.</p> */}
                         <p className='text-info'>&#36;249.99</p>
                       </div>
                     </div>

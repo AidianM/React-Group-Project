@@ -3,7 +3,7 @@ import './css/index.css';
 function Home(props){
     return(
       <div className=" container-fluid">
-        <h1 className='container-fluid' id='head-title'>THE TODD TALENT SOUTH STORE!</h1>
+        <h1 className='container-fluid' id='head-title'>WELCOME TO <br/>THE TODD TALENT SOUTH STORE!</h1>
         <hr class="my-4"/>
         <div className='center'>
           <div className='image-container container-fluid'>

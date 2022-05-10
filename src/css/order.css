@@ -22,3 +22,18 @@
     font-family: "Space Mono";
 }
 
+.orderTitle{
+    z-index: -1;
+}
+
+.orderForm{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: -1;
+}
+
+.orderBlurb{
+    margin-left: 10px;
+    margin-right: 10px;
+}
