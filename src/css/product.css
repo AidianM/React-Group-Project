@@ -191,11 +191,6 @@ h5 {
   background-color: #5abbca !important;
 }
 
-.active{
-  /* min-height: 250px; */
-
-}
-
-.home-btn{
-  margin-bottom: 100px;
+.carousel-indicators .active{
+  background-color: #387780;
 }
