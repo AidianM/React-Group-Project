@@ -4,6 +4,13 @@
     height: auto;
 }
 
+/* .welcome{
+    background-color: #D2CCA1;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px 20px;
+} */
+
 h1{
     color: #fe654f !important; 
     font-weight: bold; 
@@ -79,7 +86,7 @@ p{
 }
 
 #head-title {
-    font-size: 32px;
+    font-size: 3em;
     margin-bottom: 52px;
     margin-top: 65px;
 }
