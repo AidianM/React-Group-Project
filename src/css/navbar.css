@@ -11,8 +11,7 @@
     color: #387780 !important;
     font-weight: bold;
     font-family: "Space Mono";
-    width: 100px;
-    display: inline;
+    display: flex;
 }
 
 .hover:hover{
@@ -75,13 +74,13 @@
 }
 
 .col-lg-6 {
-    justify-content: space-between;
-    margin-left: 15px;
+    justify-content: space-evenly;
+    margin-right: 0 !important;
     padding: 0;
 }
 
 .col-lg-5 {
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 0;
 }
 
