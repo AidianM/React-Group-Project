@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import MyFirebase from './utility/MyFirebase';
 import {Link} from 'react-router-dom';
 import './css/order.css';
+import swal from 'sweetalert';
 
 
 let firebaseDBRef = MyFirebase.getFirebaseRef();
+
 
 // const [firstName, setFirstName] = useState('');
 // const [lastName, setLastName] = useState('');
@@ -52,7 +54,10 @@ function Order(){
         })
         
         .then(()=>{
-            alert("Your order has been submitted. Praise Todd.");
+            swal("Pre-Order Submitted", "We've received your info. Hold fast for upcoming details!", {
+                button: "Praise Todd!",
+            });
+            console.log("hit popup");
         })
         .catch(error => {
             alert(error.message);

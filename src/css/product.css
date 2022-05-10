@@ -162,3 +162,25 @@ h5 {
 .txt-color {
   color: #387780 !important;
 }
+
+.swal-modal {
+  background-color: #dbd4D3;
+}
+
+.swal-title{
+  color: #fe654f !important; 
+  font-weight: bold; 
+  font-family: "Space Mono"; 
+  text-align: center;
+}
+.swal-text {
+  color: #387780;
+  font-weight: bold; 
+  font-family: "Space Mono"; 
+  text-align: center;
+}
+
+.swal-button {
+  background-color: #387780;
+}
+
