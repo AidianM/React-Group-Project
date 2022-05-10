@@ -1,6 +1,8 @@
+import './css/about.css';
+
 function About(props){
     return (
-      <div>
+      <div className="bodyBlock">
         <h1><u>ABOUT US</u></h1>
         <br></br>
         <p>
