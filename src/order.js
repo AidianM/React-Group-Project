@@ -87,7 +87,7 @@ function Order(){
                 </div>
                 <div className="col-md-10">
 
-                    <h3 className="d-flex justify-content-center">Pre-Order Info:</h3>
+                    <h3 className="d-flex justify-content-center orderTitle">Pre-Order Info:</h3>
                     <div className="row">
                         <div className="col-md-6 ">
                         <input type="text" className="form-control" placeholder="First name" value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
@@ -123,7 +123,7 @@ function Order(){
                     </div>
 
                     <br/>
-                    <p>Let us know below which of our <Link to= '/products'> <em>majestic</em> products </Link> you're interested in. "All of them" is an ok answer too.</p>      
+                    <p className='orderBlurb'>Let us know below which of our <Link to= '/products'> <em>majestic</em> products </Link> you're interested in. "All of them" is an ok answer too.</p>      
                     <textarea className="form-control" aria-label="With textarea" placeholder="Send us your comments!" value={comments} onChange={(e) => setComments(e.target.value)}></textarea>
                 </div>
                 <div className="col-1">
