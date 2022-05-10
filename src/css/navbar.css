@@ -36,7 +36,9 @@
 
 .shop-btn {
     margin: 0 !important;
-    margin-left: 150px !important;
+    margin-left: 50px !important;
+    background-color: #8aa6aa;
+    border: none;
 }
 
 .cart {
@@ -45,6 +47,10 @@
     color: #387780 !important;
     font-weight: bold;
     font-family: "Space Mono";
+}
+
+.cart:hover {
+    cursor: pointer;
 }
 
 .cart-icon-text {
@@ -69,7 +75,13 @@
 
 .col-lg-6 {
     justify-content: space-between;
-    margin-left: 1px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.col-lg-5 {
+    justify-content: space-around;
+    padding: 0;
 }
 
 .mobile-viewport {
