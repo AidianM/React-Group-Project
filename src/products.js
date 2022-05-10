@@ -29,9 +29,9 @@ function Products(props){
                 <div className="carousel-item active">
                   <div>
                     <a onClick={() => {swal({
-                      title: "Todd Sticker", text:"Show Your dedication to the Great Todd and BR2. For only $4.99 + taxes."})}}>
+                      title: "Todd Sticker", text:"Show Your dedication to the Great Todd and BR2. For only $4.99 + taxes."})}} className="pointer">
                       <div className='img-center'>
-                        <img src="./resources/images/toddtslogo.jpg" className="d-block w-25 pointer" alt="TODD_TALENT_SOUTH_logo"/>
+                        <img src="./resources/images/toddtslogo.jpg" className="d-block w-25" alt="TODD_TALENT_SOUTH_logo"/>
                       </div>
                     </a>
                   </div>
