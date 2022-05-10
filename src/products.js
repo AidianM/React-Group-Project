@@ -1,6 +1,7 @@
 import './css/product.css';
 import React from 'react';
 import { Carousel } from 'bootstrap';
+import swal from 'sweetalert';
 
 function Products(props){
 
@@ -23,7 +24,8 @@ function Products(props){
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div>
-                    <a onClick={() => {alert("Show Your dedication to the Great Todd and BR2. For only $4.99 + taxes.")}}>
+                    <a onClick={() => {swal({
+                      title: "Todd Sticker", text:"Show Your dedication to the Great Todd and BR2. For only $4.99 + taxes."})}}>
                       <div className='img-center'>
                         <img src="./resources/images/toddtslogo.jpg" className="d-block w-25 pointer" alt="TODD_TALENT_SOUTH_logo"/>
                       </div>
@@ -43,7 +45,8 @@ function Products(props){
                 </div>
                 <div className="carousel-item">
                   <div>
-                  <a onClick={() => {alert("Show that your brain is the property of BR2. For only $14.99 + taxes.")}}>
+                  <a onClick={() => {swal({
+                    title:"Todd Talent South Hat", text:"Show that your brain is the property of BR2. For only $14.99 + taxes."})}}>
                     <div className='center'>
                       <img src="./resources/images/Hat-Merchandise.png" className="img-position w-50 pointer" alt="white hat with TODD_TALENT_SOUTH_logo image"/>
                     </div>
@@ -61,7 +64,9 @@ function Products(props){
                 </div>
                 <div className="carousel-item">
                   <div>
-                  <a onClick={() => {alert("Gone but immortalized, show your dedication that the Great Todd will one day return to us. For only $999.99 + taxes.")}}>
+                  <a onClick={() => {swal({
+                    title:"Bust of Todd",
+                    text:"Gone but immortalized, show your dedication that the Great Todd will one day return to us. For only $999.99 + taxes."})}}>
                     <div className='center'>
                       <img src="./resources/images/ToddBust.png" className="img-resize img3-position pointer" alt="Bust of man 'Todd' image"/>
                     </div>
@@ -80,7 +85,8 @@ function Products(props){
                 </div>
                 <div className="carousel-item">
                   <div>
-                  <a onClick={() => {alert("I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not. (Call to Inquire)")}}>
+                  <a onClick={() => {swal({
+                    title:"Scott Dossey's Private Phone Number", text:"I'm not saying we HAVE it, but inquire with our specialists about whether maybe it's a thing* or not. (Call to Inquire)"})}}>
                     <div className='center'>
                       <img src="./resources/images/BigDaddyScott.png" className="w-50 img-position pointer" alt="Scott holding phone in front of his face showing # in a telephone number format"/>
                     </div>            
@@ -98,7 +104,7 @@ function Products(props){
                 </div>
                 <div className="carousel-item">
                   <div className='img-margin'>
-                    <a onClick={() => {alert("We will sing to you legends of the Great Todd. For only $249.99 + taxes.")}}>
+                    <a onClick={() => {swal({title:"A Story of Todd", text:"We will sing to you legends of the Great Todd. For only $249.99 + taxes."})}}>
                       <div className='center'>
                         <img src="./resources/images/TaleStory.png" className="w-50 last-img-position pointer" alt="'Tale Story' logo yellow with blue border"/>
                       </div>                
