@@ -16,15 +16,74 @@
     color: #387780 !important;
     font-weight: bold;
     font-family: "Space Mono";
+    width: 100px;
 }
 
 .navbar-brand{
     color: #387780 !important;
     font-weight: bold;
     font-family: "Space Mono";
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
 }
 
 .btn{
     color: #dbd4d3 !important;
     font-family: "Space Mono";
+    align-self: center;
+}
+
+.shop-btn {
+    margin: 0 !important;
+    margin-left: 50px !important;
+    background-color: #8aa6aa;
+    border: none;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: #387780 !important;
+    font-weight: bold;
+    font-family: "Space Mono";
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.cart-icon-text {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 13.5px;
+    margin-bottom: 5px;
+}
+
+.cart-position {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 13px;
+    margin-bottom: 8px;
+}
+
+.container-fluid {
+    text-align: center;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.col-lg-6 {
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.col-lg-5 {
+    justify-content: space-around;
+    padding: 0;
+}
+
+.mobile-viewport {
+    margin: 0 !important;
 }

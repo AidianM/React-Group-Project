@@ -4,24 +4,47 @@
   letter-spacing: .5px;
 }
 
-.lower-btn1 {
-  width: 25px;
-  border: solid rgba(255,255,255,.05);
+.carousel-inner {
+  padding: 5px 0;
+  padding-bottom: 2vh;
 }
 
-.lower-btn2 {
-  width: 25px;
-  border: none;
-  margin: 0 10px;
+.pointer:hover {
+  cursor: pointer;
 }
 
-.lower-btn3 {
-  width: 25px;
-  border: none;
+.btn-left, .btn-right:hover {
+  cursor: pointer;
 }
 
-.row{
+.center {
+  display: inline-block;
   justify-content: center;
+  width: 75%;
+}
+
+.item{
+  text-align: center;
+}
+
+.text-container {
+  margin: 2vh auto;
+}
+
+.text-resize {
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+.text-info {
+  margin: 0;
+  color: #387780 !important;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  margin: .2vh;
 }
 
 .txt-header {
@@ -42,14 +65,24 @@
   width: 100%;
 }
 
-.item{
-  text-align: center;
-  margin: 20px 0;
+.carousel {
+  background-color: #dbd4D3;
 }
 
-.text-info {
-  margin: 0;
-  color: #387780 !important;
+.lower-btn1 {
+  width: 25px;
+  border: solid rgba(255,255,255,.05);
+}
+
+.lower-btn2 {
+  width: 25px;
+  border: none;
+  margin: 0 10px;
+}
+
+.lower-btn3 {
+  width: 25px;
+  border: none;
 }
 
 .img-center {
@@ -58,23 +91,59 @@
   margin-top: 20px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
+.item1-position {
+  margin-top: 20px;
 }
 
-.position {
-  display: block;
+.item-margin {
+  margin-top: 20px;
+  margin-bottom: 1vw;
+}
+
+.img-position {
+  margin-left: 25vw;
+}
+
+.img3-position {
+  margin: 0;
+  margin-left: 29vw;
+}
+
+.scott-text {
+  position: relative;
+  top: 20px;
+  margin-bottom: 6vh;
+}
+
+.carousel-last-item {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-.text-container {
-  margin: 0 auto;
+.last-item-position {
+  width: 100px;
 }
 
-.text-resize {
-  font-size: 1.5vw;
-  width: 100%;
+.img-margin {
+  margin-top: 7.8vh;
+}
+
+.last-img-position {
+  margin-left: 24.5vw;
+}
+
+.last-text-container {
+  margin-bottom: 2vh;
+}
+
+.btn-left {
+  border: none;
+  background-color: #387780;
+}
+
+.btn-right {
+  border: none;
+  background-color: #387780;
 }
 
 .btn-slide {
@@ -92,34 +161,4 @@
 
 .txt-color {
   color: #387780 !important;
-}
-
-.btn-left {
-  border: none;
-  background-color: #387780;
-}
-
-.btn-right {
-  border: none;
-  background-color: #387780;
-}
-
-.carousel {
-  background-color: #dbd4D3;
-}
-
-h5 {
-  text-transform: uppercase;
-  font-size: 1.5vw;
-}
-
-.scott-text {
-  position: relative;
-  top: 20px;
-  margin-bottom: 50px;
-}
-
-.last-img-position {
-  margin-top: 50px;
-  margin-bottom: 20px;
 }

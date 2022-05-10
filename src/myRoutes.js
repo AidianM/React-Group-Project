@@ -13,7 +13,6 @@ function MyRoutes(props){
       <Router>
         <div>
           <Navbar />
-          <hr/>
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
