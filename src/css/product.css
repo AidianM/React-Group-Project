@@ -188,3 +188,6 @@ h5 {
   background-color: #5abbca !important;
 }
 
+.carousel-indicators .active{
+  background-color: #387780;
+}
