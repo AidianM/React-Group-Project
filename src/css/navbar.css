@@ -15,6 +15,11 @@
     display: inline;
 }
 
+.hover:hover{
+    color: #5abbca !important;
+    text-decoration: underline;
+}
+
 .navbar-brand{
     color: #387780 !important;
     font-weight: bold;
@@ -83,3 +88,4 @@
 .mobile-viewport {
     margin: 0 !important;
 }
+

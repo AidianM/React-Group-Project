@@ -119,7 +119,7 @@ function Order(){
 
                     <br/>
                     <p>Let us know below which of our <Link to= '/products'> <em>majestic</em> products </Link> you're interested in. "All of them" is an ok answer too.</p>      
-                    <textarea className="form-control" aria-label="With textarea" value={comments} onChange={(e) => setComments(e.target.value)}></textarea>
+                    <textarea className="form-control" aria-label="With textarea" placeholder="Send us your comments!" value={comments} onChange={(e) => setComments(e.target.value)}></textarea>
                 </div>
                 <div className="col col-1">
                 </div>

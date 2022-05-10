@@ -12,16 +12,16 @@ function Navbar(props){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <Link to="/" className="nav-link" >HOME <span class="sr-only">(current)</span></Link>
+              <Link to="/" className="nav-link hover" >HOME <span class="sr-only">(current)</span></Link>
             </li>
             <li class="nav-item">
-              <Link to="/products" className="nav-link">PRODUCTS</Link>
+              <Link to="/products" className="nav-link hover">PRODUCTS</Link>
             </li>
             <li class="nav-item">
-              <Link to="/about" className="nav-link">ABOUT</Link>
+              <Link to="/about" className="nav-link hover">ABOUT</Link>
             </li>
             <li className="nav-item">
-              <Link to="/order" className = "nav-link">ORDER</Link>
+              <Link to="/order" className = "nav-link hover">ORDER</Link>
             </li>
         </ul>
         <a class="btn btn-secondary btn-lg" href="products" type="button">SHOP NOW!</a>
