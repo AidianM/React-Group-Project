@@ -18,12 +18,7 @@ function MyRoutes(props){
             <Route path='/' element={<Home/>} />
             <Route path='/products' element={<Products/>} />
             <Route path='/about' element={<About/>} />
-            <Route path='/order' element={<Order key={props.id} id={props.id}
-                                    firstName={props.title} lastName = {props.body}
-                                    street={props.street} state={props.state}
-                                    zip={props.zip} total={props.total}
-                                    comments={props.comments}
-                                    firebaseDBRef={firebaseDBRef}/>} />
+            <Route path='/order' element={<Order/>} />
           </Routes>
         </div>
       </Router>
@@ -31,14 +26,6 @@ function MyRoutes(props){
   }
 
 
-  /*
-To include in MyRoutes:
 
-          <Route path='/products/product1' element={Product1 />} />
-          <Route path='/products/product2' element={Product2 />} />
-          <Route path='/products/product3' element={Product3 />} />
-          <Route path='/products/product4' element={Product4 />} />
-          <Route path='/products/product5' element={Product5 />} />
-*/
 
   export default MyRoutes;

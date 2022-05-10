@@ -20,6 +20,9 @@ function Navbar(props){
             <li class="nav-item">
               <Link to="/about" className="nav-link">ABOUT</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/order" className = "nav-link">ORDER</Link>
+            </li>
         </ul>
         <a class="btn btn-secondary btn-lg" href="products" type="button">SHOP NOW!</a>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
