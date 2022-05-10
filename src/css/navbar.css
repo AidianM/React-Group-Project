@@ -112,6 +112,13 @@
     text-decoration: none;
 }
 
+.btn-secondary{
+    color: #dbd4d3 !important;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+}
 .nav-container  {
     display: flex;
     justify-content: space-evenly;

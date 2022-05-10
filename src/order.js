@@ -135,6 +135,7 @@ function Order(){
             <div className="d-flex justify-content-center">
                 <button type="button" className="btn btn-secondary" onClick={addOrder}>Submit Order</button>
             </div>
+            <br/>
         </div>
     );
 }

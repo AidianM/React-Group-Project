@@ -61,12 +61,14 @@ h5 {
 
 .carousel-center{
   width: 80%;
+
   margin: 0 auto;
   margin-top: 50px;
 }
 
 .carousel-position {
   width: 100%;
+
 }
 
 .carousel {
@@ -93,6 +95,7 @@ h5 {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  z-index: 1;
 }
 
 .item1-position {
@@ -192,3 +195,6 @@ h5 {
   background-color: #5abbca !important;
 }
 
+.carousel-indicators .active{
+  background-color: #387780;
+}
