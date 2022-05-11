@@ -1,5 +1,6 @@
 import './css/index.css';
 import 'animate.css';
+import {Link} from 'react-router-dom';
 
 function Home(props){
     return(
@@ -35,8 +36,12 @@ function Home(props){
               Be sure to act quickly as quantities are very limited!
             </p>
             <div class="lead">
-              <a class="btn-secondary btn-lg btn home-btn" href="products" type="button">SHOP NOW!</a>
-              <a class="btn-secondary btn-lg btn home-btn" href="about" type="button">ABOUT US</a>
+              <div className="btn-secondary btn-lg btn home-btn" type="button">
+                <Link to="/products" className='buttonLink'>SHOP NOW!</Link>
+              </div>
+              <div className="btn-secondary btn-lg btn home-btn" type="button">
+                <Link to="/about" className='buttonLink'>ABOUT US</Link>
+              </div>
             </div>
           </div>
         </div>

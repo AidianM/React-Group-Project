@@ -127,3 +127,13 @@
 .col-lg-6 {
     margin-left: 12vw;
 }
+
+.buttonLink{
+    text-decoration: none;
+    color: #DBD4D3;
+}
+
+.buttonLink:hover{
+    color: #DBD4D3;
+    text-decoration: none;
+}
