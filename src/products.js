@@ -2,6 +2,8 @@ import './css/product.css';
 import React from 'react';
 import { Carousel } from 'bootstrap';
 import swal from 'sweetalert';
+import {Link} from 'react-router-dom';
+
 
 
 //products + carousel
@@ -128,8 +130,15 @@ function Products(props){
             </div>
           </div>
         </div>
+<<<<<<< HEAD
+        <div className="col-md-12 text-center">
+          <Link to="/order" className="btn-secondary btn-lg btn home-btn" type="button">ORDER NOW!</Link>
+        </div>
+        <br/>
+=======
         <div className="col-md-12 text-center btn-margin"><a className="btn-secondary btn-lg btn home-btn" href="order" type="button">ORDER NOW!</a></div>
         <br></br>
+>>>>>>> a0fd552dee5dabb8489b941ce3799b3965da9b63
       </div>
     );
   }
