@@ -15,12 +15,6 @@
   height: 28vw;
 }
 
-/* @media (min-width: 1920px) {
-  .carousel-inner {
-    height: 30vw;
-  }
-} */
-
 @media (max-width: 550px) {
   .carousel-inner {
     height: 190px;
